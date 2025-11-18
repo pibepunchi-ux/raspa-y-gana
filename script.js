@@ -60,3 +60,11 @@ $(document).ready(function () {
   iniciarRaspado('bono2', 'bono2.png', 'raspadita_bono2');
   iniciarRaspado('bono3', 'bono3.png', 'raspadita_bono3');
 });
+$('#bono1').wScratchPad({
+  width: 300,
+  height: 100,
+  image: 'images/bono1.png',              // premio oculto
+  overlay: 'images/textura-metalica.png', // textura metálica
+  size: 30
+});
+
