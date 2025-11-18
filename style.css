@@ -1,36 +1,17 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url('images/fondo-navidad.jpg'); /* Fondo principal */
+  background: url('images/fondo-navidad.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Arial', sans-serif;
-}
-
-h1 {
-  color: #fff;
-  text-shadow: 2px 2px #000;
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
 }
 
 .scratch-zone {
   width: 300px;
   height: 100px;
-  margin: 10px;
-  position: relative;
-}
-
-.scratch-zone {
-  width: 300px;
-  height: 100px;
-  margin: 10px auto;
+  margin: 20px auto;
   border: 2px solid #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+
